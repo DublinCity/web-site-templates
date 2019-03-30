@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.content h2 {
+}
+
+article.feature {margin-top: 3rem;margin-bottom: 3rem;background: white;}
+
+.content {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    padding: 0 1rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    width: 413px;
+}
+
+span.image {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.inner {
+}
+
+section.section-wrapper {
+    background: #eee;
+    padding: 1.2rem;
+}
+
+#banner h2 {
+    margin-top: 2rem;
+}
+
+ul.actions {
+    margin: 3rem 0;
+    padding: 0;
+}
+
+a.button.big {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    background: #51BAA4;
+    border-radius: 2rem;
+    padding: 1rem 1.4rem;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+  color: white;
+  width: 100%;
+  padding: 2rem;
+}
+
+#header h1 {
+  margin: 0;
+  display: inline-block;
+  font-size:2rem;
+  float: left;
+}
+#header button {
+  background: transparent;
+  border: none;
+  display: inline-block;
+  font-size:2rem;
+  font-weight: bold;
+  color: white;
+  line-height: 1.9rem;
+}
+
+button {}
+
+#banner {
+  background: url(./img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding: 8rem;
+}
+
+#banner .banner-title {
+  font-size: 2.2rem;
+}
+
+#banner i {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 100%;
+  font-size: 3rem;
+  width: 8rem;
+  height: 8rem;
+  padding: 2rem;
+  line-height: 4rem;
+  margin: 2rem;
+}
+
+#banner p {
+  font-size: 1.2rem;
+}
+
+#banner ul li {list-style: none;}
